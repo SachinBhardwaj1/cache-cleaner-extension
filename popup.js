@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const dataTypes = ['cache', 'cookies', 'history', 'formData'];
+  const dataTypes = ['cache', 'cookies', 'history', 'formData', 'downloads'];
   const intervalInput = document.getElementById('interval');
   const timerDisplay = document.getElementById('timer');
 

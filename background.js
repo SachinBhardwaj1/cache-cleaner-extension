@@ -21,14 +21,15 @@ chrome.runtime.onInstalled.addListener(() => {
   chrome.storage.local.set({
     dataTypes: {
       cache: true,
-      history: false,
+      history: true,
       cookies: false,
-      formData: false
+      formData: true,
+      downloads: true
     },
-    interval: 30,
+    interval: 10,
     lastClearTime: Date.now()
   }, () => {
-    chrome.alarms.create('clearData', { periodInMinutes: 30 });
+    chrome.alarms.create('clearData', { periodInMinutes: 10 });
     chrome.alarms.create('updateBadge', { periodInMinutes: 1 });
     updateBadge();
   });
