@@ -3,25 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Smart Data Cleaner</title>
+  <title>AutoClear</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h2>Smart Data Cleaner</h2>
-  <form id="settingsForm">
-    <fieldset>
-      <legend>Data Types to Clear:</legend>
-      <label><input type="checkbox" id="cache"> Cache</label>
-      <label><input type="checkbox" id="cookies"> Cookies</label>
-      <label><input type="checkbox" id="history"> History</label>
-      <label><input type="checkbox" id="formData"> Form Data</label>
-      <label><input type="checkbox" id="downloads"> Downloads</label>
-    </fieldset>
-    <label for="interval">Clear every (minutes):</label>
-    <input type="number" id="interval" min="1" value="1440" />
-    <button type="submit">Save Settings</button>
-  </form>
-  <div id="countdown">Next clear in: <span id="timer">--:--</span></div>
+  <h2>AutoClear</h2>
+  <div class="container">
+    <form id="settingsForm">
+      <fieldset>
+        <legend>Select Data Types to Clear:</legend>
+        <label><input type="checkbox" id="cache"> Cache</label>
+        <label><input type="checkbox" id="cookies"> Cookies</label>
+        <label><input type="checkbox" id="history"> History</label>
+        <label><input type="checkbox" id="formData"> Form Data</label>
+        <label><input type="checkbox" id="downloads"> Downloads</label>
+      </fieldset>
+      <label for="interval">Data clear every (minutes):</label>
+      <input type="number" id="interval" min="1" value="1440" />
+      <button type="submit">Save Settings</button>
+    </form>
+    Next clear in: <div id="timer">00:00</div>
+    <div id="status" class="status-message"></div>
+  </div>
   <script src="popup.js"></script>
 </body>
 </html>
