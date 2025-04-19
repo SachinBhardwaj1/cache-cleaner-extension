@@ -25,14 +25,14 @@ It supports:
 | Manifest Version    | Chrome Manifest v3             |
 | Background Scripts  | Service Workers (background.js) |
 | UI Components       | HTML5, CSS3, JavaScript         |
-| Data Storage        | \`chrome.storage.local\`          |
-| Alarms & Timing     | \`chrome.alarms\` API             |
-| Badge Updates       | \`chrome.action.setBadgeText\`    |
-| Browsing Data Clearing | \`chrome.browsingData.remove\` |
+| Data Storage        | chrome.storage.local          |
+| Alarms & Timing     | chrome.alarms API             |
+| Badge Updates       | chrome.action.setBadgeText    |
+| Browsing Data Clearing | chrome.browsingData.remove |
 
 ## 📁 Project Structure
 
-  ![Screenshot 2025-04-17 at 00 28 17](https://github.com/user-attachments/assets/f2cc2561-337d-47f4-b209-d766d1a15c21)
+  ![Screenshot 2025-04-18 at 18 44 30](https://github.com/user-attachments/assets/31b24140-c8f5-4e2c-9e3e-c4ef7e35a4a1)
 
 
 ## 🚀 Features
@@ -77,20 +77,14 @@ It supports:
 
   ![Screenshot 2025-04-16 at 23 57 29](https://github.com/user-attachments/assets/a9f8c4d2-3c31-4b54-bca4-71d4593c80e3)
 
-  ![Screenshot 2025-04-16 at 23 57 55](https://github.com/user-attachments/assets/67507f30-c108-4d67-be91-d713bb1544be)
+  <img width="793" alt="Screenshot 2025-04-18 at 18 47 38" src="https://github.com/user-attachments/assets/26c94e2f-62ad-4d53-a912-dbf9b90822b3" />
 
-  ![Screenshot 2025-04-16 at 23 58 17](https://github.com/user-attachments/assets/74040855-c7bf-478f-8f85-082280553507)
-
-  ![Screenshot 2025-04-16 at 23 58 33](https://github.com/user-attachments/assets/df5b3ed7-d9f0-4d47-99ef-ad202e6289a3)
-
-  ![Screenshot 2025-04-16 at 23 59 23](https://github.com/user-attachments/assets/81585040-3b8d-4d29-bc2c-697730cf98a0)
-
-  ![Screenshot 2025-04-17 at 00 08 48](https://github.com/user-attachments/assets/ae3b4834-b725-41fa-9476-7673677e9c49)
+  ![Screenshot 2025-04-18 at 18 48 37](https://github.com/user-attachments/assets/d290fee7-8680-4567-b3d9-fc5bbcbc5adf)
 
 
 ## 🛠 Future Improvements
 
-- [ ] Add dark mode to the popup
+- [ ] Add light and mode to the popup
 - [ ] Add custom notification once clearing happens
 - [ ] Optional auto-pause when on critical websites
 
